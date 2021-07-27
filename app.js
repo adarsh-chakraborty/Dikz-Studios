@@ -15,9 +15,9 @@ app.use(mainRoutes);
 app.use('/api',apiRoutes);
 // Now register the subdomain middleware.
 
-const PORT = process.env.PORT | 3000;
+const PORT = process.env.PORT || 3000;
 /*
-https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCNYDljtAeI8oZzelFzj7-Tw&order=date&type=video&videoSyndicated=true&key=AIzaSyCg5M3KgYCgQju3c7AMEfaLyQroFx6xzX4
+https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCNYDljtAeI8oZzelFzj7-Tw&order=date&type=video&videoSyndicated=true&key=
 */
 app.listen(PORT, ()=> {
     console.log('Server is now live on PORT: '+ PORT);
