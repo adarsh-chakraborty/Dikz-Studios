@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Dikz </title>
+</head>
+
+    <center><h3>Thank you for contacting us!</h3><p id="timeleft">Your Response has been Saved. <br/>Redirecting in..(5)</p></center>
+    <script>
+        let c = 5;
+
+        const redirectService = setInterval(myRedirectFunction,1000);
+        
+        function myRedirectFunction() {
+            c--;
+            document.getElementById("timeleft").innerHTML = `Your Response has been Saved. <br/>Redirecting in..(${c})`
+            console.log(c);
+            if(c==0){
+                console.log('Redirecting now!');
+                clearAndRedirect();
+            }
+
+        }
+        console.log('Bum bada boom');
+        function clearAndRedirect() {
+            clearInterval(redirectService);
+            location.replace("http://dikzstudios.gq");
+        }
+    //   const  t1 = window.setTimeout(function(){ window.location.replace = "http://www.yoururl.com"; },3000);
+   // document.getElementById("secs").innerHTML = toCelsius; 
+    </script>
+</body>
+</html>

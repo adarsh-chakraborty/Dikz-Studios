@@ -137,10 +137,37 @@ exports.getVideoStats = (req,res,next) => {
     const videoId = req.query.Id;
     if(!videoId) {
         return res.status(400).send(`
-        <blockquote>
-        <h1>Response: 400 Bad Request</h1>
-        <h2>Message: Abe Video Id kon dega be ??!</h2>
-        </blockquote>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Error 400</title>
+            <style>
+                
+                h2 {
+                    padding-left: 20px;
+                    padding-top: 5px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    
+                }
+
+                h3{
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding-left: 20px;
+                    
+                }
+
+
+
+            </style>
+        </head>
+        <body>
+            <h2>Response 400 Bad Request</h2>
+            <h3>Abe Video ID kon dega be?</h3>
+        </body>
+        </html>
         `); 
     }
     if(videoStats.has(videoId)){
