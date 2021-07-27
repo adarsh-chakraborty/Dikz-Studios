@@ -1,4 +1,4 @@
-const hostname = 'http://localhost:3000';
+const hostname = 'http://api.dikzstudios.gq';
 
 const subs = document.querySelector('#subsCount');
 const dikzUploads = document.querySelector('#dikzUploads');

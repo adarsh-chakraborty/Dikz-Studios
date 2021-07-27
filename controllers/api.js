@@ -79,16 +79,6 @@ exports.getStats = (req,res,next) => {
 }
 
 
-
-exports.getTest = (req,res,next) => {
-    
-    fs.readFile('test.txt','utf8', (err,data) => {
-        
-        res.json(JSON.parse(data));
-    })
-};
-
-
 exports.getLatest = (req,res,next) => {
     // ?pageToken=
     // &maxResults=50
@@ -127,6 +117,7 @@ exports.getPopular = (req,res,next) => {
             console.log(e);
         });
     }else{
+        console.log('sending local popular');
         res.header("Content-Type",'application/json');
         res.send(JSON.stringify(popular,null,4));   
     }
