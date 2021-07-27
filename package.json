@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "build:css": "npx tailwindcss -i ./src/styles.css -o ./views/css/styles.css"
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./views/css/styles.css",
+    "heroku-prebuild": "npm i -f",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Adarsh Chakraborty",
   "license": "ISC",
