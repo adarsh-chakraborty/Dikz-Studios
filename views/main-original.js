@@ -1,4 +1,4 @@
-const hostname = 'http://api.dikzstudios.gq';
+const hostname = 'https://api.dikzstudios.gq';
 
 const subs = document.querySelector('#subsCount');
 const dikzUploads = document.querySelector('#dikzUploads');
