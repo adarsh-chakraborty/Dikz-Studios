@@ -15,8 +15,10 @@ module.exports = {
     colors: {
       youtube: '#FF0000'
     },
-    rotate: {
-      '-360': '-360deg' 
+    screens: {
+      m_320: '320px',
+      m_375: '375px',
+      m_480: '480px',
     }
     },
   },
