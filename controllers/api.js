@@ -2,10 +2,33 @@ const axios = require('axios').default;
 const fs = require('fs');
 
 let cursor=0;
+
 let stats = null;
 let latest = null;
 let popular = null;
 let videoStats = new Map();
+
+
+
+const checkCache = () => {
+    if(stats || latest || popular || videoStats.size > 0 ){
+       clearlocalData();
+       console.log('local cleared!');
+       setTimeout(checkCache,600000); // 10 mins
+       return;
+
+    }
+    console.log('No data in local, Setting another timeout');
+    setTimeout(checkCache,1200000); // 20 mins
+
+}
+
+function clearlocalData(){
+    stats = null;
+    latest = null;
+    popular = null;
+    videoStats.clear();
+}
 
 const getAPIKEY = () => {
     let APIKEY = null;
@@ -161,6 +184,7 @@ exports.getVideoStats = (req,res,next) => {
         </html>
         `); 
     }
+
     if(videoStats.has(videoId)){
             console.log('sending local video stats');
             res.header("Content-Type",'application/json');
@@ -180,5 +204,7 @@ exports.getVideoStats = (req,res,next) => {
             console.log(e);
         }); 
     }
-    
+      
 }
+
+setTimeout(checkCache,900000);
