@@ -5,8 +5,14 @@ const dikzUploads = document.querySelector('#dikzUploads');
 const dikzViews = document.querySelector('#dikzViews');
 const divLatestUploads = document.querySelector('#dikzlatest');
 const divPopularUploads = document.querySelector('#dikzPopular');
-
+const toggleMenu = document.querySelector('#toggle_menu');
+const mobileNav = document.querySelector('#mobile_nav');
 const speed = 200;
+
+
+toggleMenu.addEventListener('click',()=> {
+    mobileNav.classList.toggle('hidden');
+});
 
 // Fetch Data from Local Storage.
 const local = localStorage.getItem('subscribers');
@@ -250,8 +256,8 @@ const renderPopularVideos = (dataArray) => {
     dataArray.items.forEach(element => {
         
         html += `
-        <div class="flex flex-col  m_480:flex-row center justify-center items-center ">
-        <div class="flex w-min  sm:w-72 rounded-xl justify-center  ">
+        <div class="flex flex-col m_480:flex-row center justify-center items-center ">
+        <div class="flex sm:w-72 rounded-xl justify-center  ">
             <img src="${element.snippet.thumbnails.medium.url}" alt="${element.snippet.title}" class="rounded-xl border-gray-900 border-2 p-1">
         </div>
         <div class="mx-auto p-2 w-screen mt-1 sm:max-w-sm sm:mt-0 md:max-w-sm lg:max-w-lg md:mx-px sm:mx-4">
