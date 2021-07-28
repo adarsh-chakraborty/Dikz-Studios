@@ -21,8 +21,8 @@
           </div>
      </div> 
 
-     <div class="sm:hidden absolute right-12 text-gray-700 cursor-pointer" id="toggle_menu">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+     <div class="p-2 sm:hidden absolute right-6 text-gray-700 cursor-pointer" id="toggle_menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
      </div>
@@ -138,10 +138,10 @@
     <!-- Popular Videos Section End  -->
 
     <!-- Social  -->
-    <div class="w-full h-auto text-center  text-black font-bold text-2xl bg-gradient-to-b from-gray-300 via-gray-300 to-gray-400">
+    <div class="w-full h-auto text-center  text-gray-900 font-bold text-xl sm:text-2xl bg-gradient-to-b from-gray-300 via-gray-300 to-gray-400">
         <span class="uppercase ">Connect with me on these Social links...</span>
-        <div class="flex flex-row justify-evenly items-center p-4">
-            <div class="flex flex-col items-start text-gray-700 gap-4 ">
+        <div class="flex flex-col sm:flex-row justify-evenly items-center p-4">
+            <div class="flex flex-row sm:flex-col items-start text-gray-700 gap-4">
                 <i class="fa fa-facebook hover:translate-x-2 transform duration-200 ease-in-out cursor-pointer"> Facebook</i> 
                 <i class="fa fa-instagram hover:translate-x-2 transform duration-200 ease-in-out cursor-pointer"> Instagram</i> 
                 <i class="fa text-gray-700 hover:translate-x-2 transform duration-200 ease-in-out cursor-pointer"><img class="inline" src="assets/Discord-Logo-Black.svg" width="24px"/> Discord</i>
@@ -149,7 +149,7 @@
             </div>
             
             <form action="http://localhost:3000/api/contact" method="POST">
-                <div class="border-gray-200 flex flex-col text-grey-darkest ">
+                <div class="mt-8 sm:mt-0 border-gray-200 flex flex-col text-grey-darkest ">
                     <input name="name" type="text" class="w-72 rounded focus:border-gray-500 focus:ring-gray-600" placeholder="Enter Name.."  required>
                     <input name="email" type="email" class="mt-4 w-72 rounded focus:border-gray-500 focus:ring-gray-600" placeholder="E-mail.."  required>
                     <textarea name="message" class="mt-4 w-72 rounded focus:border-gray-500 focus:ring-gray-600" placeholder="Message..." required></textarea>
