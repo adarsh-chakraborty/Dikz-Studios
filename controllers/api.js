@@ -82,6 +82,7 @@ const getAPIKEY = () => {
 exports.getStats = (req,res,next) => {
     if(!stats){
         let key = getAPIKEY();
+        console.log('fetching channel status via KEY');
         axios.get(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCNYDljtAeI8oZzelFzj7-Tw&key=${key}`)
         .then((result) => {
             return result.data.items[0];
@@ -107,6 +108,7 @@ exports.getLatest = (req,res,next) => {
     // &maxResults=50
     if(!latest){
         let key = getAPIKEY();
+        console.log('fetching latest videos via KEY');
         axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=4&channelId=UCNYDljtAeI8oZzelFzj7-Tw&order=date&type=video&videoSyndicated=true&key=${key}`)
         .then((result) => {
             return result.data.items;
@@ -128,6 +130,7 @@ exports.getLatest = (req,res,next) => {
 exports.getPopular = (req,res,next) => {
     if(!popular){
         let key = getAPIKEY();
+        console.log('fetching popular videos via KEY');
         axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCNYDljtAeI8oZzelFzj7-Tw&order=viewCount&type=video&videoSyndicated=true&key=${key}`)
         .then((result) => {
             return result.data;
@@ -192,6 +195,7 @@ exports.getVideoStats = (req,res,next) => {
 
     }else{
         let key = getAPIKEY();
+        console.log('fetching video stats');
         axios.get(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${videoId}&key=${key}`)
         .then((result) => {
             return result.data;
