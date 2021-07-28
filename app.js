@@ -3,6 +3,7 @@ const express = require('express');
 
 const mainRoutes = require('./routes/main');
 const apiRoutes = require('./routes/api');
+const error404 = require('./controllers/404');
 const cors = require('cors');
 const app = express();
 
@@ -13,7 +14,7 @@ app.use(express.static('public'));
 
 app.use(mainRoutes);
 app.use('/api',apiRoutes);
-// Now register the subdomain middleware.
+app.use(error404);
 
 const PORT = process.env.PORT || 3000;
 /*
