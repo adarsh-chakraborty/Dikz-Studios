@@ -943,10 +943,6 @@ select{
   flex-direction: column;
 }
 
-.items-start{
-  align-items: flex-start;
-}
-
 .items-center{
   align-items: center;
 }
@@ -1058,11 +1054,6 @@ select{
 .border-gray-900{
   --tw-border-opacity: 1;
   border-color: rgba(17, 24, 39, var(--tw-border-opacity));
-}
-
-.border-red-200{
-  --tw-border-opacity: 1;
-  border-color: rgba(254, 202, 202, var(--tw-border-opacity));
 }
 
 .border-red-300{

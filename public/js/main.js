@@ -1,1 +1,353 @@
-const a0_0x1ab6=['then','uploads','querySelectorAll','</Strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','split','toLowerCase','\x20Subscribers','getItem','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22dikz__node_views_count\x22>\x20<img\x20src=\x22assets/eye.svg\x22\x20width=\x2226px\x22\x20class=\x22inline-block\x20mb-1\x20pl-1\x22>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22dikz__popular\x22\x20id=\x22views\x22></span><span\x20class=\x22hidden\x20lg:inline-block\x20pl-1\x22>\x20Views</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22dikz__node_views_count\x22>\x20<img\x20src=\x22assets/heart.svg\x22\x20class=\x22inline\x20mb-1\x20pl-1\x22\x20width=\x2226px\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22dikz__popular\x22\x20id=\x22likes\x22></span><span\x20class=\x22hidden\x20lg:inline-block\x20pl-1\x22>\x20Likes</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22dikz__node_views_count\x22><img\x20src=\x22assets/comments.svg\x22\x20class=\x22inline\x20pl-1\x22\x20width=\x2224px\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22dikz__popular\x22\x20id=\x22comment\x22></span><span\x20class=\x22hidden\x20lg:inline-block\x20pl-1\x22>\x20Comments</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22font-semibold\x20underline\x20font-RobotoSlab\x20text-gray-800\x20transform\x20transition\x20duration-100\x20hover:scale-105\x20hover:no-underline\x20hover:translate-x-1\x20cursor-pointer\x20pl-1\x22><a\x20href=\x22https://youtu.be/','386617MkhSfk','#dikzPopular','speed','409509czaxbv','#dikzUploads','3RMmHRK','3zMkPhr','querySelector','</span></a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x20\x0a\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20','title','medium','log','\x22\x20target=\x22_blank\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22w-64\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20class=\x22\x22\x20src=\x22','replace','thumbnails','#dikzViews','substr','nodeName','1913HpNbJp','json','\x0a\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-gray-100\x20justify-self-center\x20w-min\x20overflow-hidden\x20rounded-xl\x20transform\x20transition\x20duration-150\x20ease-in-out\x20hover:scale-105\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://youtu.be/','url','addEventListener','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22underline\x20p-2\x20text-justify\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://youtu.be/','local','snippet','innerHTML','videoId','https://api.dikzstudios.gq','.dikz__popular__node','statistics','456917jalXJR','catch','\x22\x20alt=\x22','commentCount','/api/popular','hidden','95IEkPcP','tempspeed','...','#mobile_nav','length','/api/latest','subscribers','saved','166873iCfGAs','#subsCount','likeCount','675156YgosIx','ceil','views','setItem','div','items','#dikzlatest','\x22\x20target=\x22_blank\x22>Watch\x20now\x20-></a></div>\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<br\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','16713TZGMnS','viewCount','totalViews','/api/stats','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22flex\x20flex-col\x20m_480:flex-row\x20center\x20justify-center\x20items-center\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22flex\x20sm:w-72\x20rounded-xl\x20justify-center\x20\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','forEach','innerText','push','#toggle_menu','classList','dikz__node_views_count','/api/video?Id=','toString'];const a0_0x5b382b=a0_0x1ac5;(function(_0x480555,_0x18c599){const _0x434a61=a0_0x1ac5;while(!![]){try{const _0x4753cf=parseInt(_0x434a61(0xaf))*parseInt(_0x434a61(0x94))+parseInt(_0x434a61(0xbc))*-parseInt(_0x434a61(0x81))+parseInt(_0x434a61(0xad))+-parseInt(_0x434a61(0x89))+-parseInt(_0x434a61(0xaa))+-parseInt(_0x434a61(0x8c))+-parseInt(_0x434a61(0x7b))*-parseInt(_0x434a61(0xb0));if(_0x4753cf===_0x18c599)break;else _0x480555['push'](_0x480555['shift']());}catch(_0xc45a3b){_0x480555['push'](_0x480555['shift']());}}}(a0_0x1ab6,0x668b2));const hostname=a0_0x5b382b(0x78),subs=document[a0_0x5b382b(0xb1)](a0_0x5b382b(0x8a)),dikzUploads=document[a0_0x5b382b(0xb1)](a0_0x5b382b(0xae)),dikzViews=document['querySelector'](a0_0x5b382b(0xb9)),divLatestUploads=document[a0_0x5b382b(0xb1)](a0_0x5b382b(0x92)),divPopularUploads=document['querySelector'](a0_0x5b382b(0xab)),toggleMenu=document[a0_0x5b382b(0xb1)](a0_0x5b382b(0x9c)),mobileNav=document['querySelector'](a0_0x5b382b(0x84)),speed=0xc8;toggleMenu[a0_0x5b382b(0xc0)]('click',()=>{const _0x13278a=a0_0x5b382b;mobileNav[_0x13278a(0x9d)]['toggle'](_0x13278a(0x80));});const local=localStorage['getItem'](a0_0x5b382b(0x87));let localUploadsCount=localStorage[a0_0x5b382b(0xa8)](a0_0x5b382b(0xa2)),localViewsCount=localStorage[a0_0x5b382b(0xa8)](a0_0x5b382b(0x96)),subscribers=null,videoCount=null,totalViews=null;function a0_0x1ac5(_0x563a23,_0x5d28b3){return a0_0x1ac5=function(_0x1ab620,_0x1ac569){_0x1ab620=_0x1ab620-0x76;let _0x3ebf2a=a0_0x1ab6[_0x1ab620];return _0x3ebf2a;},a0_0x1ac5(_0x563a23,_0x5d28b3);}fetch(hostname+a0_0x5b382b(0x97))[a0_0x5b382b(0xa1)](_0x1cdd70=>{const _0x5ce871=a0_0x5b382b;return _0x1cdd70[_0x5ce871(0xbd)]();})['then'](_0x494901=>{const _0x167d0b=a0_0x5b382b;subscribers=+_0x494901['statistics']['subscriberCount'],videoCount=+_0x494901[_0x167d0b(0x7a)]['videoCount'],totalViews=+_0x494901[_0x167d0b(0x7a)][_0x167d0b(0x95)],refreshData();})[a0_0x5b382b(0x7c)](_0x48365d=>{console['log'](_0x48365d);});const refreshData=()=>{const _0x4cc0bf=a0_0x5b382b;if(local&&localUploadsCount&&localViewsCount){console[_0x4cc0bf(0xb5)](_0x4cc0bf(0xc2),local);const _0x578d26=+subscribers;let _0x4712ef=+local[_0x4cc0bf(0xa5)]('\x20')[0x0];subs[_0x4cc0bf(0x9a)]=_0x4712ef+_0x4cc0bf(0xa7),dikzUploads[_0x4cc0bf(0x9a)]=localUploadsCount,dikzViews[_0x4cc0bf(0x9a)]=numberWithCommas(localViewsCount);if(_0x4712ef<_0x578d26||localUploadsCount<videoCount||localViewsCount<totalViews){let _0x50f37b=_0x578d26-_0x4712ef,_0x53fc96=0x96;if(_0x50f37b<=0xa)_0x53fc96=0xe1;else{if(_0x50f37b<=0x19)_0x53fc96=0x7d;else _0x50f37b<=0x64?_0x53fc96=0x32:_0x53fc96=0xa;}console[_0x4cc0bf(0xb5)](_0x4cc0bf(0xac),_0x53fc96);const _0x5ad603=()=>{const _0x2b8895=_0x4cc0bf;_0x4712ef<_0x578d26?(_0x4712ef++,subs[_0x2b8895(0x9a)]=_0x4712ef+'\x20Subscribers',setTimeout(_0x5ad603,_0x53fc96)):(subs[_0x2b8895(0x9a)]=_0x578d26+_0x2b8895(0xa7),localStorage[_0x2b8895(0x8f)](_0x2b8895(0x87),subs[_0x2b8895(0x9a)]),console[_0x2b8895(0xb5)](_0x2b8895(0x88)));},_0x1d3cb6=()=>{const _0x385868=_0x4cc0bf;if(localUploadsCount<videoCount){let _0x265a12=videoCount-localUploadsCount;if(_0x265a12<=0x32)_0x265a12=0x96;else _0x265a12<=0x64?_0x265a12=0x32:_0x265a12=0x19;console[_0x385868(0xb5)](_0x265a12,_0x385868(0x82)),localUploadsCount++,dikzUploads[_0x385868(0x9a)]=localUploadsCount,setTimeout(_0x1d3cb6,_0x265a12);}else dikzUploads[_0x385868(0x9a)]=videoCount,localStorage['setItem'](_0x385868(0xa2),videoCount);},_0x2af6ae=()=>{const _0x35753f=_0x4cc0bf;localViewsCount<totalViews?(localViewsCount++,dikzViews['innerText']=numberWithCommas(localViewsCount),setTimeout(_0x2af6ae,0x1)):(dikzViews[_0x35753f(0x9a)]=numberWithCommas(totalViews),localStorage[_0x35753f(0x8f)](_0x35753f(0x96),totalViews));};_0x5ad603(),_0x1d3cb6(),_0x2af6ae();}else subs['innerText']=_0x578d26+_0x4cc0bf(0xa7),dikzUploads[_0x4cc0bf(0x9a)]=videoCount,dikzViews[_0x4cc0bf(0x9a)]=numberWithCommas(totalViews);}else{const _0x556c20=()=>{const _0x10888f=_0x4cc0bf,_0x3bc6a9=+subscribers,_0x4ad832=+subs['innerText'][_0x10888f(0xa5)]('\x20')[0x0],_0x4003d6=_0x3bc6a9/speed;_0x4ad832<_0x3bc6a9?(subs[_0x10888f(0x9a)]=Math[_0x10888f(0x8d)](_0x4ad832+_0x4003d6)+_0x10888f(0xa7),setTimeout(_0x556c20,0x19)):(subs[_0x10888f(0x9a)]=_0x3bc6a9+'\x20Subscribers',localStorage[_0x10888f(0x8f)](_0x10888f(0x87),subs[_0x10888f(0x9a)]),console['log']('saved'));},_0x179fd4=()=>{const _0x4b2d02=_0x4cc0bf,_0x1be57e=+videoCount,_0x260cfb=+dikzUploads[_0x4b2d02(0x9a)],_0x14930e=_0x1be57e/0x3e8;_0x260cfb<_0x1be57e?(dikzUploads[_0x4b2d02(0x9a)]=Math['ceil'](_0x260cfb+_0x14930e),setTimeout(_0x179fd4,0x50)):(dikzUploads[_0x4b2d02(0x9a)]=_0x1be57e,localStorage[_0x4b2d02(0x8f)](_0x4b2d02(0xa2),_0x1be57e));},_0x1b317a=()=>{const _0x1e6604=_0x4cc0bf,_0x15e5d3=+totalViews,_0xb5a4a5=+dikzViews['innerText'],_0x4d54ca=_0x15e5d3/0xc8;_0xb5a4a5<_0x15e5d3?(dikzViews[_0x1e6604(0x9a)]=Math[_0x1e6604(0x8d)](_0xb5a4a5+_0x4d54ca),setTimeout(_0x1b317a,0x19)):(dikzViews[_0x1e6604(0x9a)]=numberWithCommas(_0x15e5d3),localStorage[_0x1e6604(0x8f)](_0x1e6604(0x96),_0x15e5d3));};_0x556c20(),_0x179fd4(),_0x1b317a();}};fetch(hostname+a0_0x5b382b(0x86))[a0_0x5b382b(0xa1)](_0x4ae8a9=>{const _0x4f0bbc=a0_0x5b382b;return _0x4ae8a9[_0x4f0bbc(0xbd)]();})[a0_0x5b382b(0xa1)](_0x196d4a=>{renderLatestVideos(_0x196d4a);})[a0_0x5b382b(0x7c)](_0x5005da=>console[a0_0x5b382b(0xb5)](_0x5005da)),fetch(hostname+a0_0x5b382b(0x7f))[a0_0x5b382b(0xa1)](_0xa6b06e=>{return _0xa6b06e['json']();})[a0_0x5b382b(0xa1)](_0x737266=>{renderPopularVideos(_0x737266);})[a0_0x5b382b(0x7c)](_0x407d16=>console[a0_0x5b382b(0xb5)](_0x407d16));{}const renderLatestVideos=_0x45bc84=>{const _0x2e32bc=a0_0x5b382b;let _0x18380a='';_0x45bc84[_0x2e32bc(0x99)]((_0x256d90,_0x109ca4)=>{const _0x4bf9b8=_0x2e32bc;let _0x32b877=getShortTitle(_0x256d90[_0x4bf9b8(0xc3)][_0x4bf9b8(0xb3)]);_0x18380a+=_0x4bf9b8(0xbe)+_0x256d90['id']['videoId']+_0x4bf9b8(0xb6)+_0x256d90[_0x4bf9b8(0xc3)][_0x4bf9b8(0xb8)][_0x4bf9b8(0xb4)][_0x4bf9b8(0xbf)]+_0x4bf9b8(0x7d)+_0x256d90[_0x4bf9b8(0xc3)][_0x4bf9b8(0xb3)]+_0x4bf9b8(0xc1)+_0x256d90['id'][_0x4bf9b8(0x77)]+'\x22\x20target=\x22_blank\x22><span\x20class=\x22font-RobotoSlab\x22>'+_0x32b877+_0x4bf9b8(0xb2);}),divLatestUploads['innerHTML']=_0x18380a;},getShortTitle=_0x20b5e3=>{const _0xb9fcf0=a0_0x5b382b;let _0x2ad0bd=_0x20b5e3;return _0x2ad0bd[_0xb9fcf0(0x85)]>=0x1c&&(_0x2ad0bd=_0x20b5e3[_0xb9fcf0(0xba)](0x0,0x1c)+_0xb9fcf0(0x83)),_0x2ad0bd;};{}const renderPopularVideos=_0x154855=>{const _0x172759=a0_0x5b382b;let _0x2b71c6='';_0x154855[_0x172759(0x91)][_0x172759(0x99)](_0x34d645=>{const _0x19c285=_0x172759;_0x2b71c6+=_0x19c285(0x98)+_0x34d645[_0x19c285(0xc3)][_0x19c285(0xb8)][_0x19c285(0xb4)]['url']+_0x19c285(0x7d)+_0x34d645[_0x19c285(0xc3)][_0x19c285(0xb3)]+'\x22\x20class=\x22rounded-xl\x20border-gray-900\x20border-2\x20p-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mx-auto\x20p-2\x20w-screen\x20mt-1\x20sm:max-w-sm\x20sm:mt-0\x20md:max-w-sm\x20lg:max-w-lg\x20md:mx-px\x20sm:mx-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<Strong\x20class=\x22block\x22>'+_0x34d645[_0x19c285(0xc3)][_0x19c285(0xb3)]+_0x19c285(0xa4)+_0x34d645[_0x19c285(0xc3)]['description']+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-sm\x20xl:text-base\x20font-Montserrat\x20flex\x20gap-x-1\x20xl:gap-x-0\x20justify-evenly\x20items-baseline\x20p-2\x20mt-2\x20dikz__popular__node\x22\x20id=\x22'+_0x34d645['id'][_0x19c285(0x77)]+_0x19c285(0xa9)+_0x34d645['id'][_0x19c285(0x77)]+_0x19c285(0x93);}),divPopularUploads[_0x172759(0x76)]=_0x2b71c6,fetchVideoStats();},fetchVideoStats=()=>{const _0x18c587=a0_0x5b382b,_0xa827e9=document[_0x18c587(0xa3)](_0x18c587(0x79)),_0x1b78d3=[];_0xa827e9['forEach'](_0x72c9e5=>{const _0x289ca0=_0x18c587;_0x1b78d3[_0x289ca0(0x9b)](_0x72c9e5['id']);}),_0x1b78d3&&fetch(hostname+(_0x18c587(0x9f)+_0x1b78d3[_0x18c587(0xa0)]()))['then'](_0x598585=>{const _0x30fb1c=_0x18c587;return _0x598585[_0x30fb1c(0xbd)]();})[_0x18c587(0xa1)](_0xe94467=>{renderVideoStats(_0xe94467['items']);});},renderVideoStats=_0x2c796c=>{const _0x465ab1=a0_0x5b382b,_0x5e32a4=document[_0x465ab1(0xa3)](_0x465ab1(0x79));_0x5e32a4[_0x465ab1(0x99)](_0x4467bb=>{const _0x2fdd0a=_0x465ab1,_0x7ecf39=_0x4467bb['id'];let _0x557b83=null,_0x3f0ac0=null,_0x34b0a2=null;_0x2c796c['forEach'](_0x4c96c6=>{const _0x1988e9=a0_0x1ac5;_0x7ecf39==_0x4c96c6['id']&&(_0x557b83=_0x4c96c6['statistics'][_0x1988e9(0x95)],_0x3f0ac0=_0x4c96c6['statistics'][_0x1988e9(0x8b)],_0x34b0a2=_0x4c96c6[_0x1988e9(0x7a)][_0x1988e9(0x7e)]);});let _0x5eb28f=_0x4467bb['childNodes'];for(let _0x1193f0=0x0;_0x1193f0<_0x5eb28f[_0x2fdd0a(0x85)];_0x1193f0++){if(_0x5eb28f[_0x1193f0][_0x2fdd0a(0xbb)][_0x2fdd0a(0xa6)]()==_0x2fdd0a(0x90)&&_0x5eb28f[_0x1193f0]['id']==_0x2fdd0a(0x9e))for(let _0x1c010 of _0x5eb28f[_0x1193f0]['children']){_0x1c010['id']==_0x2fdd0a(0x8e)&&(_0x1c010[_0x2fdd0a(0x9a)]=numberWithCommas(_0x557b83)),_0x1c010['id']=='likes'&&(_0x1c010[_0x2fdd0a(0x9a)]=_0x3f0ac0),_0x1c010['id']=='comment'&&(_0x1c010[_0x2fdd0a(0x9a)]=_0x34b0a2);}}});};function numberWithCommas(_0x198926){const _0x5d8739=a0_0x5b382b;return _0x198926[_0x5d8739(0xa0)]()[_0x5d8739(0xb7)](/\B(?=(\d{3})+(?!\d))/g,',');}
+const hostname = 'https://api.dikzstudios.gq';
+
+const subs = document.querySelector('#subsCount');
+const dikzUploads = document.querySelector('#dikzUploads');
+const dikzViews = document.querySelector('#dikzViews');
+const divLatestUploads = document.querySelector('#dikzlatest');
+const divPopularUploads = document.querySelector('#dikzPopular');
+const toggleMenu = document.querySelector('#toggle_menu');
+const mobileNav = document.querySelector('#mobile_nav');
+const speed = 200;
+
+
+toggleMenu.addEventListener('click',()=> {
+    mobileNav.classList.toggle('hidden');
+});
+
+// Fetch Data from Local Storage.
+const local = localStorage.getItem('subscribers');
+let localUploadsCount = localStorage.getItem('uploads');
+let localViewsCount = localStorage.getItem('totalViews');
+
+// Fetch Data from API
+let subscribers = null;
+let videoCount = null;
+let totalViews = null;
+
+fetch(hostname+'/api/stats').then(response => {
+    return response.json();
+}).then(data => {
+    subscribers = +data.statistics.subscriberCount;
+    videoCount = +data.statistics.videoCount;
+    totalViews = +data.statistics.viewCount;
+    
+    refreshData();
+}).catch(err => {
+    console.log(err);
+});
+
+
+const refreshData = () => {
+    if(local && localUploadsCount && localViewsCount){
+        console.log('local',local);
+        const totalSubs = +subscribers;
+        
+        let localSubs = +local.split(' ')[0];
+        
+        subs.innerText = localSubs + " Subscribers";
+        dikzUploads.innerText = localUploadsCount;
+        dikzViews.innerText = numberWithCommas(localViewsCount);
+        // Data Exists; Slow Count
+        if(localSubs < totalSubs || localUploadsCount < videoCount || localViewsCount < totalViews){
+           
+            let diff = totalSubs - localSubs;
+            
+            let speed = 150;
+            if(diff <= 10) {
+                speed = 225;
+            }else if(diff <= 25){
+                speed = 125;
+            }else if(diff <= 100){
+                speed = 50;
+            }else{
+                speed = 10;
+            }
+            console.log('speed',speed);
+             // Increment
+             const updateSubsCount = () => {
+                 if(localSubs < totalSubs){
+                     localSubs++;
+                     subs.innerText = localSubs + " Subscribers";
+                     setTimeout(updateSubsCount,speed); // 150
+                 }else{
+                    subs.innerText = totalSubs + " Subscribers";
+                    localStorage.setItem('subscribers',subs.innerText);
+                    console.log('saved');
+                     
+                 }
+             }
+
+            //  upload count 
+            const updateUploadsCount = () => {
+                if(localUploadsCount < videoCount){
+                    let tempSpeed = videoCount - localUploadsCount;
+                    if(tempSpeed <= 50){
+                        tempSpeed = 150;
+                    }else if(tempSpeed <= 100){
+                        tempSpeed = 50;
+                    }else{
+                        tempSpeed = 25;
+                    }
+                    console.log(tempSpeed,'tempspeed');
+                    localUploadsCount++;
+                    dikzUploads.innerText = localUploadsCount;
+                    setTimeout(updateUploadsCount,tempSpeed); // 150
+                }else{
+                    dikzUploads.innerText = videoCount;
+                   localStorage.setItem('uploads',videoCount);
+                }
+            }
+
+            // View count
+            const updateViewsCount = () => {
+                if(localViewsCount < totalViews){
+                    localViewsCount++;
+                    dikzViews.innerText = numberWithCommas(localViewsCount);
+                    setTimeout(updateViewsCount,1); // 150
+                }else{
+                    dikzViews.innerText = numberWithCommas(totalViews);
+                   localStorage.setItem('totalViews',totalViews);
+                }
+            }
+    
+             updateSubsCount();
+             updateUploadsCount();
+             updateViewsCount();
+        }
+        else{
+            subs.innerText = totalSubs + " Subscribers";
+            dikzUploads.innerText = videoCount;
+            dikzViews.innerText = numberWithCommas(totalViews);
+        }
+    }else {
+        // Data not exists, Fast count        
+        const updateSubs = () => {
+            const target = +subscribers;
+            const count = +subs.innerText.split(' ')[0]; // Errro
+    
+            const inc = target/speed;
+            // console.log('count',count);
+    
+            if(count < target){
+                subs.innerText = Math.ceil(count + inc) + " Subscribers";
+                setTimeout(updateSubs,25);
+            }else{
+                subs.innerText = target + " Subscribers";
+                localStorage.setItem('subscribers',subs.innerText);
+                console.log('saved');
+            }
+            
+        }
+
+        //  upload count 
+        const updateUploads = () => {
+            const target = +videoCount;
+            const count = +dikzUploads.innerText;
+            const inc = target/1000;
+            
+            if(count < target){
+                dikzUploads.innerText = Math.ceil(count + inc);
+                setTimeout(updateUploads,80);
+            }else{
+                dikzUploads.innerText = target;
+                localStorage.setItem('uploads',target);
+            }
+        }
+
+        // View count
+        const updateViews = () => {
+            const target = +totalViews;
+            const count = +dikzViews.innerText;
+            const inc = target/200;
+
+            if(count < target){
+                dikzViews.innerText = Math.ceil(count + inc);
+                setTimeout(updateViews,25);
+            }else{
+                dikzViews.innerText = numberWithCommas(target);
+                localStorage.setItem('totalViews',target);
+                
+            }
+        }
+
+        updateSubs();
+        updateUploads();    
+        updateViews();
+    }
+}
+
+
+// Lazy Loading
+
+// getLatestUploads
+
+fetch(hostname+'/api/latest').then(response => {
+    return response.json();
+})
+.then(data => {
+    renderLatestVideos(data);
+}).catch(err => console.log(err));
+
+// getPopularUploads
+
+fetch(hostname+'/api/popular').then(response => {
+    return response.json();
+})
+.then(data => {
+    renderPopularVideos(data);
+}).catch(err => console.log(err));
+
+
+{/* <div class="bg-white w-min overflow-hidden rounded-xl">
+<div class="w-64">
+    <img class="" src="https://i.ytimg.com/vi/i0imqI_sLf8/maxresdefault.jpg" alt="Video Latest upload">
+</div>
+<!-- Video Title & Duration  -->
+<div class="underline p-2 text-justify">
+   <span>Video Title Here</span>
+</div> 
+</div> */}
+
+const renderLatestVideos = (dataArray) => {
+   let html = "";
+   dataArray.forEach((element,index) => {
+        
+    let shortTitle = getShortTitle(element.snippet.title);
+    html += `
+       
+       <div class="bg-gray-100 justify-self-center w-min overflow-hidden rounded-xl transform transition duration-150 ease-in-out hover:scale-105">
+        <a href="https://youtu.be/${element.id.videoId}" target="_blank">
+                <div class="w-64">
+                    <img class="" src="${element.snippet.thumbnails.medium.url}" alt="${element.snippet.title}">
+                </div>
+        </a>
+        <div class="underline p-2 text-justify">
+                <a href="https://youtu.be/${element.id.videoId}" target="_blank"><span class="font-RobotoSlab">${shortTitle}</span></a>
+        </div> 
+       </div>
+       
+       `;
+   });
+   divLatestUploads.innerHTML = html;
+};
+
+const getShortTitle = (title) => {
+    let short = title;
+    if(short.length >= 28){
+        short = title.substr(0,28) + '...';
+    }
+    return short;
+}
+
+
+{/* <div class="flex justify-center items-center ">
+<div class="w-64 rounded-xl overflow-hidden">
+    <img src="https://i.ytimg.com/vi/i0imqI_sLf8/maxresdefault.jpg" alt="Thumbnail">
+</div>
+<div class="p-2 w-2/4 mx-4">
+    <Strong class="block">Long ass video Title Here</Strong>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit dicta, eum ipsam dolorem neque deleniti tenetur incidunt praesentium aut recusandae ullam qui illo doloribus, cupiditate iure quae facilis autem!</span>
+   <span class="block mt-2"><img src="assets/views_svg.svg" width="24px" class="inline-block"> 44,000 Views</Span>
+    <img src="https://img.icons8.com/flat-round/50/000000/hearts.png" width="24px" class="inline"/><span class="inline">1000 Likes</span>
+</div>
+</div> */}
+const renderPopularVideos = (dataArray) => {
+    let html = '';
+    dataArray.items.forEach(element => {
+        
+        html += `
+        <div class="flex flex-col m_480:flex-row center justify-center items-center ">
+        <div class="flex sm:w-72 rounded-xl justify-center  ">
+            <img src="${element.snippet.thumbnails.medium.url}" alt="${element.snippet.title}" class="rounded-xl border-gray-900 border-2 p-1">
+        </div>
+        <div class="mx-auto p-2 w-screen mt-1 sm:max-w-sm sm:mt-0 md:max-w-sm lg:max-w-lg md:mx-px sm:mx-4">
+            <Strong class="block">${element.snippet.title}</Strong>
+            <span>${element.snippet.description}</span>
+        <div class="text-sm xl:text-base font-Montserrat flex gap-x-1 xl:gap-x-0 justify-evenly items-baseline p-2 mt-2 dikz__popular__node" id="${element.id.videoId}">
+        <div id="dikz__node_views_count"> <img src="assets/eye.svg" width="26px" class="inline-block mb-1 pl-1"> 
+                <span class="dikz__popular" id="views"></span><span class="hidden lg:inline-block pl-1"> Views</span></div>
+                <div id="dikz__node_views_count"> <img src="assets/heart.svg" class="inline mb-1 pl-1" width="26px"/>
+                <span class="dikz__popular" id="likes"></span><span class="hidden lg:inline-block pl-1"> Likes</span></div>
+            <div id="dikz__node_views_count"><img src="assets/comments.svg" class="inline pl-1" width="24px"/>
+                <span class="dikz__popular" id="comment"></span><span class="hidden lg:inline-block pl-1"> Comments</span></div>
+            <div class="font-semibold underline font-RobotoSlab text-gray-800 transform transition duration-100 hover:scale-105 hover:no-underline hover:translate-x-1 cursor-pointer pl-1"><a href="https://youtu.be/${element.id.videoId}" target="_blank">Watch now -></a></div>    
+        </div>
+        </div>
+        </div>
+        <br />
+        `;
+    });
+
+    divPopularUploads.innerHTML = html;
+    fetchVideoStats();
+};
+
+const fetchVideoStats = () => {
+    const node = document.querySelectorAll('.dikz__popular__node');
+    // get all video IDs
+    const Ids = [];
+    node.forEach(node => {
+        Ids.push(node.id);
+    });
+    if(Ids){
+      // has Items // Send API Request
+        fetch(hostname+`/api/video?Id=${Ids.toString()}`).then(response => {
+            return response.json();
+        }).then(data => {
+            renderVideoStats(data.items);
+        });
+    }
+}
+
+const renderVideoStats = (dataArray) => {
+    
+    const node = document.querySelectorAll('.dikz__popular__node');
+
+    node.forEach(node => {
+       // Get data for Current Node
+       const currentVideoId = node.id;
+       let tempViews = null;
+       let tempLikes = null;
+       let tempComments = null;
+       dataArray.forEach(data => {
+           if(currentVideoId == data.id){
+                tempViews = data.statistics.viewCount;
+
+                tempLikes = data.statistics.likeCount;
+                tempComments = data.statistics.commentCount;
+           }
+       });
+       
+       
+       let temp = node.childNodes;
+       
+       for(let i=0;i< temp.length; i++){
+
+    
+           if(temp[i].nodeName.toLowerCase() == 'div' && temp[i].id == 'dikz__node_views_count' ){
+                
+            for(let x of temp[i].children){
+                if(x.id == 'views'){
+                    x.innerText = numberWithCommas(tempViews);
+                } 
+
+                if(x.id == 'likes'){
+                   x.innerText = tempLikes;
+               } 
+               
+               if(x.id == 'comment'){
+                   x.innerText = tempComments;
+               } 
+            }
+               
+               
+           }
+       }
+    });
+    
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
