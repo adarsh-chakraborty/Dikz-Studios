@@ -13,6 +13,8 @@ Router.get('/popular', apiController.getPopular);
 
 Router.get('/video', apiController.getVideoStats);
 
+Router.get('/reset', apiController.getReset);
+
 Router.post('/contact', contactController.postContact);
 
 

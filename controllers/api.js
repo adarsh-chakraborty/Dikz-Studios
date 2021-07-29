@@ -211,4 +211,29 @@ exports.getVideoStats = (req,res,next) => {
       
 }
 
+exports.getReset = (req,res,next) => {
+    const key = req.query.key;
+    const pass = new Date().getDate();
+    if(!key){
+        res.send('password do');
+        return;
+    }
+    const val = `${pass}doge`;
+    
+    if(key == val){
+        // Correct pass
+        if(stats || latest || popular || videoStats.size > 0 ){
+            clearlocalData();
+            res.send('Cleared local data. Done');
+        }else{
+            res.send('Local data is already cleared!');
+        }
+    }
+    else{
+        res.status(401).send('Password galat hai.');
+    }
+       
+};
+
 setTimeout(checkCache,900000);
+

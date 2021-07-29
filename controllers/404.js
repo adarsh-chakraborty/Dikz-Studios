@@ -25,7 +25,7 @@ module.exports = (req,res,next) => {
         <h2>Error 404!</h2>
         <hr />
         <img src="https://c.tenor.com/4otr5S3l1agAAAAj/dancing-duckdancing.gif" alt="">
-        <h3>You couldn't find ${req.url}, but you found this dancing duck tho. Nice</h3>
+        <h3>We couldn't find <span style="font-weight: 800;">${req.url}</span>, but you found this dancing duck tho. Nice :)</h3>
         <h3><a href="/">Click here</a> to go back to homepage.</h3>
         <br><br><br><br><br>
         <hr />
