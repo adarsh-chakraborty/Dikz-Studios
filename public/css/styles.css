@@ -1422,12 +1422,20 @@ select{
     width: 18rem;
   }
 
+  .sm\:w-3\/6{
+    width: 50%;
+  }
+
   .sm\:w-4\/12{
     width: 33.333333%;
   }
 
   .sm\:max-w-sm{
     max-width: 24rem;
+  }
+
+  .sm\:max-w-full{
+    max-width: 100%;
   }
 
   .sm\:grid-cols-2{
@@ -1507,6 +1515,10 @@ select{
     display: inline-block;
   }
 
+  .lg\:w-2\/6{
+    width: 33.333333%;
+  }
+
   .lg\:max-w-lg{
     max-width: 32rem;
   }
@@ -1538,12 +1550,12 @@ select{
     margin-right: 4rem;
   }
 
-  .xl\:w-2\/6{
-    width: 33.333333%;
-  }
-
   .xl\:max-w-screen-lg{
     max-width: 1024px;
+  }
+
+  .xl\:max-w-screen-2xl{
+    max-width: 1536px;
   }
 
   .xl\:grid-flow-row{
@@ -1589,6 +1601,10 @@ select{
 
   .\32xl\:w-28{
     width: 7rem;
+  }
+
+  .\32xl\:w-2\/6{
+    width: 33.333333%;
   }
 
   .\32xl\:w-3\/12{
