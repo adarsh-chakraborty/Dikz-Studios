@@ -1,5 +1,5 @@
 const hostname = 'https://api.dikzstudios.gq';
-
+// localStorage.clear();
 const subs = document.querySelector('#subsCount');
 const dikzUploads = document.querySelector('#dikzUploads');
 const dikzViews = document.querySelector('#dikzViews');
