@@ -103,7 +103,7 @@ const refreshData = () => {
                 if(localViewsCount < totalViews){
                     localViewsCount++;
                     dikzViews.innerText = localViewsCount;
-                    setTimeout(updateViewsCount,10); // 150
+                    setTimeout(updateViewsCount,1); // 150
                 }else{
                     dikzViews.innerText = numberWithCommas(totalViews);
                    localStorage.setItem('totalViews',totalViews);

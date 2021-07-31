@@ -14,12 +14,12 @@ const checkCache = () => {
     if(stats || latest || popular || videoStats.size > 0 ){
        clearlocalData();
        console.log('local cleared!');
-       setTimeout(checkCache,600000); // 10 mins
+       setTimeout(checkCache,1200000); // 20 mins
        return;
 
     }
     console.log('No data in local, Setting another timeout');
-    setTimeout(checkCache,1200000); // 20 mins
+    setTimeout(checkCache,2400000); // 40 mins
 
 }
 
@@ -235,5 +235,5 @@ exports.getReset = (req,res,next) => {
        
 };
 
-setTimeout(checkCache,900000);
+setTimeout(checkCache,1800000); // 30 mins
 
