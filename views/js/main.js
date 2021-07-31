@@ -102,8 +102,8 @@ const refreshData = () => {
             const updateViewsCount = () => {
                 if(localViewsCount < totalViews){
                     localViewsCount++;
-                    dikzViews.innerText = numberWithCommas(localViewsCount);
-                    setTimeout(updateViewsCount,1); // 150
+                    dikzViews.innerText = localViewsCount;
+                    setTimeout(updateViewsCount,10); // 150
                 }else{
                     dikzViews.innerText = numberWithCommas(totalViews);
                    localStorage.setItem('totalViews',totalViews);
@@ -256,11 +256,12 @@ const renderPopularVideos = (dataArray) => {
     dataArray.items.forEach(element => {
         
         html += `
-        <div class="flex flex-col m_480:flex-row center justify-center items-center ">
+        <div class="flex flex-col sm:flex-row center justify-center items-center ">
         <div class="flex sm:w-72 rounded-xl justify-center  ">
             <img src="${element.snippet.thumbnails.medium.url}" alt="${element.snippet.title}" class="rounded-xl border-gray-900 border-2 p-1">
         </div>
-        <div class="mx-auto p-2 w-screen mt-1 sm:max-w-sm sm:mt-0 md:max-w-sm lg:max-w-lg md:mx-px sm:mx-4">
+        
+        <div class="mx-auto p-2 mt-1 sm:max-w-sm sm:mt-0 md:max-w-sm lg:max-w-lg md:mx-px sm:mx-4">
             <Strong class="block">${element.snippet.title}</Strong>
             <span>${element.snippet.description}</span>
         <div class="text-sm xl:text-base font-Montserrat flex gap-x-1 xl:gap-x-0 justify-evenly items-baseline p-2 mt-2 dikz__popular__node" id="${element.id.videoId}">

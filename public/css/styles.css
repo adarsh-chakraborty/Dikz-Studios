@@ -780,10 +780,6 @@ select{
   width: 100%;
 }
 
-.w-screen{
-  width: 100vw;
-}
-
 .w-min{
   width: -webkit-min-content;
   width: -moz-min-content;
@@ -1638,10 +1634,6 @@ select{
 @media (min-width: 480px){
   .m_480\:-mt-8{
     margin-top: -2rem;
-  }
-
-  .m_480\:flex-row{
-    flex-direction: row;
   }
 
   .m_480\:text-gray-600{
