@@ -142,11 +142,11 @@ const refreshData = () => {
         //  upload count 
         const updateUploads = () => {
             const target = +videoCount;
-            const count = +dikzUploads.innerText;
-            const inc = Math.ceil(target/1000);
+            let count = +dikzUploads.innerText;
+            console.log(count);
             
             if(count < target){
-                dikzUploads.innerText = count + inc;
+                dikzUploads.innerText = ++count;
                 setTimeout(updateUploads,100);
             }else{
                 dikzUploads.innerText = target;
