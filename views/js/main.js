@@ -143,11 +143,11 @@ const refreshData = () => {
         const updateUploads = () => {
             const target = +videoCount;
             const count = +dikzUploads.innerText;
-            const inc = target/1000;
+            const inc = Math.ceil(target/1000);
             
             if(count < target){
-                dikzUploads.innerText = Math.ceil(count + inc);
-                setTimeout(updateUploads,80);
+                dikzUploads.innerText = count + inc;
+                setTimeout(updateUploads,100);
             }else{
                 dikzUploads.innerText = target;
                 localStorage.setItem('uploads',target);
