@@ -224,9 +224,9 @@ exports.getReset = (req,res,next) => {
         // Correct pass
         if(stats || latest || popular || videoStats.size > 0 ){
             clearlocalData();
-            res.send('Cleared local data. Done');
+            res.send('Local data clear hogya, Aab next data sidha youtube se aayega.');
         }else{
-            res.send('Local data is already cleared!');
+            res.send('Local data me kuch nahi hai clear karne ko.');
         }
     }
     else{

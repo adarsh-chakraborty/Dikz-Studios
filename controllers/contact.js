@@ -39,7 +39,7 @@ exports.postContact = (req, res, next) => {
 */
     let mailOptions2 = {
         from: `${name} <${email}>`,
-        to: 'ins.invincible@gmail.com',
+        to: 'adarshchakraborty48@gmail.com',
         replyTo: `${email}`,
         subject: `A New Message From ${name} | Dikz Studios`,
         text: `${message}`

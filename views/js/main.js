@@ -5,13 +5,13 @@ const dikzUploads = document.querySelector('#dikzUploads');
 const dikzViews = document.querySelector('#dikzViews');
 const divLatestUploads = document.querySelector('#dikzlatest');
 const divPopularUploads = document.querySelector('#dikzPopular');
-const toggleMenu = document.querySelector('#toggle_menu');
-const mobileNav = document.querySelector('#mobile_nav');
+// const toggleMenu = document.querySelector('#toggle_menu');
+// const mobileNav = document.querySelector('#mobile_nav');
 const speed = 200;
 
 
-toggleMenu.addEventListener('click',()=> {
-    mobileNav.classList.toggle('hidden');
+$("#toggle_menu").click(() => {
+    $("#mobile_nav").slideToggle();
 });
 
 // Fetch Data from Local Storage.
@@ -228,7 +228,14 @@ const renderLatestVideos = (dataArray) => {
        
        `;
    });
-   divLatestUploads.innerHTML = html;
+   
+//    divLatestUploads.innerHTML = html;
+   //
+   $(divLatestUploads).fadeOut('fast', () => {
+       $(divLatestUploads).html(html);
+       $(divLatestUploads).fadeIn('slow');
+   });
+   
 };
 
 const getShortTitle = (title) => {
@@ -279,8 +286,13 @@ const renderPopularVideos = (dataArray) => {
         `;
     });
 
-    divPopularUploads.innerHTML = html;
-    fetchVideoStats();
+    // divPopularUploads.innerHTML = html;
+    $(divPopularUploads).fadeOut('fast', () => {
+        $(divPopularUploads).html(html);
+        $(divPopularUploads).fadeIn('slow');
+        fetchVideoStats();
+        
+    });
 };
 
 const fetchVideoStats = () => {
