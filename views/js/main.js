@@ -88,7 +88,6 @@ const refreshData = () => {
                     }else{
                         tempSpeed = 25;
                     }
-                    console.log(tempSpeed,'tempspeed');
                     localUploadsCount++;
                     dikzUploads.innerText = localUploadsCount;
                     setTimeout(updateUploadsCount,tempSpeed); // 150
