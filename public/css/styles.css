@@ -680,6 +680,10 @@ select{
   margin-bottom: 0.25rem;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
 .ml-3{
   margin-left: 0.75rem;
 }
@@ -965,10 +969,6 @@ select{
 
 .gap-4{
   gap: 1rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
 }
 
 .gap-x-1{
