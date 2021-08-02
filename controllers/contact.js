@@ -19,7 +19,7 @@ exports.postContact = (req, res, next) => {
 
     res.render('redirect');
 
-/*    
+    
     let mailOptions1 = {
         from: `${name} <${email}>`,
         to: 'dikshantgiri4@gmail.com',
@@ -36,10 +36,10 @@ exports.postContact = (req, res, next) => {
         }
     });
 
-*/
+
     let mailOptions2 = {
         from: `${name} <${email}>`,
-        to: 'adarshchakraborty48@gmail.com',
+        to: 'ins.invincible@gmail.com',
         replyTo: `${email}`,
         subject: `A New Message From ${name} | Dikz Studios`,
         text: `${message}`
