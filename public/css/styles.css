@@ -951,6 +951,10 @@ select{
   justify-content: center;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
 .justify-evenly{
   justify-content: space-evenly;
 }
@@ -1444,6 +1448,10 @@ select{
 
   .sm\:flex-col{
     flex-direction: column;
+  }
+
+  .sm\:justify-evenly{
+    justify-content: space-evenly;
   }
 
   .sm\:pl-0{

@@ -142,7 +142,6 @@ const refreshData = () => {
         const updateUploads = () => {
             const target = +videoCount;
             let count = +dikzUploads.innerText;
-            console.log(count);
             
             if(count < target){
                 dikzUploads.innerText = ++count;
