@@ -38,140 +38,146 @@ fetch(hostname+'/api/stats').then(response => {
 
 
 const refreshData = () => {
-    if(local && localUploadsCount && localViewsCount){
-        console.log('local',local);
-        const totalSubs = +subscribers;
-        
-        let localSubs = +local.split(' ')[0];
-        
-        subs.innerText = localSubs + " Subscribers";
-        dikzUploads.innerText = localUploadsCount;
-        dikzViews.innerText = numberWithCommas(localViewsCount);
-        // Data Exists; Slow Count
-        if(localSubs < totalSubs || localUploadsCount < videoCount || localViewsCount < totalViews){
-           
-            let diff = totalSubs - localSubs;
-            
-            let speed = 150;
-            if(diff <= 10) {
-                speed = 225;
-            }else if(diff <= 25){
-                speed = 125;
-            }else if(diff <= 100){
-                speed = 50;
-            }else{
-                speed = 10;
-            }
-            console.log('speed',speed);
-             // Increment
-             const updateSubsCount = () => {
-                 if(localSubs < totalSubs){
-                     localSubs++;
-                     subs.innerText = localSubs + " Subscribers";
-                     setTimeout(updateSubsCount,speed); // 150
-                 }else{
-                    subs.innerText = totalSubs + " Subscribers";
-                    localStorage.setItem('subscribers',subs.innerText);
-                    console.log('saved');
-                     
-                 }
-             }
+    if (local && localUploadsCount && localViewsCount) {
+			console.log('local', local);
+			const totalSubs = +subscribers;
 
-            //  upload count 
-            const updateUploadsCount = () => {
-                if(localUploadsCount < videoCount){
-                    let tempSpeed = videoCount - localUploadsCount;
-                    if(tempSpeed <= 50){
-                        tempSpeed = 150;
-                    }else if(tempSpeed <= 100){
-                        tempSpeed = 50;
-                    }else{
-                        tempSpeed = 25;
-                    }
-                    localUploadsCount++;
-                    dikzUploads.innerText = localUploadsCount;
-                    setTimeout(updateUploadsCount,tempSpeed); // 150
-                }else{
-                    dikzUploads.innerText = videoCount;
-                   localStorage.setItem('uploads',videoCount);
-                }
-            }
+			let localSubs = +local.split(' ')[0];
 
-            // View count
-            const updateViewsCount = () => {
-                if(localViewsCount < totalViews){
-                    localViewsCount++;
-                    dikzViews.innerText = localViewsCount;
-                    setTimeout(updateViewsCount,1); // 150
-                }else{
-                    dikzViews.innerText = numberWithCommas(totalViews);
-                   localStorage.setItem('totalViews',totalViews);
-                }
-            }
-    
-             updateSubsCount();
-             updateUploadsCount();
-             updateViewsCount();
-        }
-        else{
-            subs.innerText = totalSubs + " Subscribers";
-            dikzUploads.innerText = videoCount;
-            dikzViews.innerText = numberWithCommas(totalViews);
-        }
-    }else {
-        // Data not exists, Fast count        
-        const updateSubs = () => {
-            const target = +subscribers;
-            const count = +subs.innerText.split(' ')[0]; // Errro
-    
-            const inc = target/speed;
-            // console.log('count',count);
-    
-            if(count < target){
-                subs.innerText = Math.ceil(count + inc) + " Subscribers";
-                setTimeout(updateSubs,25);
-            }else{
-                subs.innerText = target + " Subscribers";
-                localStorage.setItem('subscribers',subs.innerText);
-                console.log('saved');
-            }
-            
-        }
+			subs.innerText = localSubs + ' Subscribers';
+			dikzUploads.innerText = localUploadsCount;
+			dikzViews.innerText = numberWithCommas(localViewsCount);
+			// Data Exists; Slow Count
+			if (
+				localSubs < totalSubs ||
+				localUploadsCount < videoCount ||
+				localViewsCount < totalViews
+			) {
+				let diff = totalSubs - localSubs;
 
-        //  upload count 
-        const updateUploads = () => {
-            const target = +videoCount;
-            let count = +dikzUploads.innerText;
-            
-            if(count < target){
-                dikzUploads.innerText = ++count;
-                setTimeout(updateUploads,100);
-            }else{
-                dikzUploads.innerText = target;
-                localStorage.setItem('uploads',target);
-            }
-        }
+				let speed = 150;
+				if (diff <= 10) {
+					speed = 225;
+				} else if (diff <= 25) {
+					speed = 125;
+				} else if (diff <= 100) {
+					speed = 50;
+				} else {
+					speed = 10;
+				}
+				console.log('speed', speed);
+				// Increment
+				const updateSubsCount = () => {
+					if (localSubs < totalSubs) {
+						localSubs++;
+						subs.innerText = localSubs + ' Subscribers';
+						setTimeout(updateSubsCount, speed); // 150
+					} else {
+						subs.innerText = totalSubs + ' Subscribers';
+						localStorage.setItem('subscribers', subs.innerText);
+						console.log('saved');
+					}
+				};
 
-        // View count
-        const updateViews = () => {
-            const target = +totalViews;
-            const count = +dikzViews.innerText;
-            const inc = target/200;
+				//  upload count
+				const updateUploadsCount = () => {
+					if (localUploadsCount < videoCount) {
+						let tempSpeed = videoCount - localUploadsCount;
+						if (tempSpeed <= 50) {
+							tempSpeed = 150;
+						} else if (tempSpeed <= 100) {
+							tempSpeed = 50;
+						} else {
+							tempSpeed = 25;
+						}
+						localUploadsCount++;
+						dikzUploads.innerText = localUploadsCount;
+						setTimeout(updateUploadsCount, tempSpeed); // 150
+					} else {
+						dikzUploads.innerText = videoCount;
+						localStorage.setItem('uploads', videoCount);
+					}
+				};
 
-            if(count < target){
-                dikzViews.innerText = Math.ceil(count + inc);
-                setTimeout(updateViews,25);
-            }else{
-                dikzViews.innerText = numberWithCommas(target);
-                localStorage.setItem('totalViews',target);
-                
-            }
-        }
+				// View count
 
-        updateSubs();
-        updateUploads();    
-        updateViews();
-    }
+				const updateViewsCount = () => {
+					console.log('slow counting');
+					const target = +totalViews;
+					const count = +localViewsCount;
+					const inc = target / 400;
+
+					if (count < target) {
+						localViewsCount = Math.ceil(count + inc);
+						dikzViews.innerText = localViewsCount;
+						setTimeout(updateViewsCount, 25);
+					} else {
+						dikzViews.innerText = numberWithCommas(totalViews);
+						localStorage.setItem('totalViews', totalViews);
+					}
+				};
+
+				updateSubsCount();
+				updateUploadsCount();
+				updateViewsCount();
+			} else {
+				subs.innerText = totalSubs + ' Subscribers';
+				dikzUploads.innerText = videoCount;
+				dikzViews.innerText = numberWithCommas(totalViews);
+			}
+		} else {
+			// Data not exists, Fast count
+
+			const updateSubs = () => {
+				const target = +subscribers;
+				const count = +subs.innerText.split(' ')[0]; // Errro
+
+				const inc = target / speed;
+				// console.log('count',count);
+
+				if (count < target) {
+					subs.innerText = Math.ceil(count + inc) + ' Subscribers';
+					setTimeout(updateSubs, 25);
+				} else {
+					subs.innerText = target + ' Subscribers';
+					localStorage.setItem('subscribers', subs.innerText);
+					console.log('saved');
+				}
+			};
+
+			//  upload count
+			const updateUploads = () => {
+				const target = +videoCount;
+				let count = +dikzUploads.innerText;
+
+				if (count < target) {
+					dikzUploads.innerText = ++count;
+					setTimeout(updateUploads, 100);
+				} else {
+					dikzUploads.innerText = target;
+					localStorage.setItem('uploads', target);
+				}
+			};
+
+			// View count
+			const updateViews = () => {
+				const target = +totalViews;
+				const count = +dikzViews.innerText;
+				const inc = target / 200;
+
+				if (count < target) {
+					dikzViews.innerText = Math.ceil(count + inc);
+					setTimeout(updateViews, 25);
+				} else {
+					dikzViews.innerText = numberWithCommas(target);
+					localStorage.setItem('totalViews', target);
+				}
+			};
+
+			updateSubs();
+			updateUploads();
+			updateViews();
+		}
 }
 
 
