@@ -1,4 +1,4 @@
-const hostname = 'https://dikz.herokuapp.com';
+
 // localStorage.clear();
 const subs = document.querySelector('#subsCount');
 const dikzUploads = document.querySelector('#dikzUploads');
@@ -24,7 +24,7 @@ let subscribers = null;
 let videoCount = null;
 let totalViews = null;
 
-fetch(hostname+'/api/stats').then(response => {
+fetch('/api/stats').then(response => {
     return response.json();
 }).then(data => {
     subscribers = +data.statistics.subscriberCount;
@@ -36,7 +36,9 @@ fetch(hostname+'/api/stats').then(response => {
     console.log(err);
 });
 
-
+const obj = {
+	HellO: "Hello";
+}
 const refreshData = () => {
     if (local && localUploadsCount && localViewsCount) {
 			console.log('local', local);
@@ -185,7 +187,7 @@ const refreshData = () => {
 
 // getLatestUploads
 
-fetch(hostname+'/api/latest').then(response => {
+fetch('/api/latest').then(response => {
     return response.json();
 })
 .then(data => {
@@ -194,7 +196,7 @@ fetch(hostname+'/api/latest').then(response => {
 
 // getPopularUploads
 
-fetch(hostname+'/api/popular').then(response => {
+fetch('/api/popular').then(response => {
     return response.json();
 })
 .then(data => {
@@ -308,7 +310,7 @@ const fetchVideoStats = () => {
     });
     if(Ids){
       // has Items // Send API Request
-        fetch(hostname+`/api/video?Id=${Ids.toString()}`).then(response => {
+        fetch(`/api/video?Id=${Ids.toString()}`).then(response => {
             return response.json();
         }).then(data => {
             renderVideoStats(data.items);
